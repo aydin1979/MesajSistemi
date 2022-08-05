@@ -48,9 +48,9 @@ class Listeners extends PluginBase implements Listener{
    }elseif(strtolower($message) == "kg"){
      $event->setMessage("Kolay gelsin");
    }elseif(strtolower($message) == "bb"){
-       $event->sendMessage("Güle Güle");
+     $event->setMessage("Güle Güle");
    }elseif(strtolower($message) == "i.g"){
-       $event->sendMessage("İyi geceler ");
+     $event->setMessage("İyi geceler ");
   }
  }
 }
